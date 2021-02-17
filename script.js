@@ -2,7 +2,7 @@ var hours = [9, 10, 11, 12, 1, 2, 3, 4, 5];
 var militaryTime = [09, 10, 11, 12, 13, 14, 15, 16, 17];
 var hour = moment().format('MMMM Do YYYY, h:mm:ss a');
 var currentHour = moment().format('HH');
-console.log(currentHour)
+var saveEvnt = '';
 var index = 0;
 function calander() {
     console.log("calanderfired")
@@ -25,6 +25,8 @@ function calander() {
         }
     }
 }
+$('.startBtn').click(function () {
 
+})
 
 calander()
